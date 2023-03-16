@@ -75,16 +75,13 @@
       <script>
         function sendEmail(){
             Email.send({
-                SecureToken: "fbe80423-34ae-454b-97cd-c5a6f01a09da",
-                Host : "smtp.gmail.com",
-                Username : "jeejatk1977@gmail.com",
-                Password : "sbrsh2424",
+                SecureToken: "d3993d06-9977-4cef-9f23-e3bea6482c1b",
                 To : 'sbrsh2424@gmail.com',
-                From : document.getElementById("email").value,
-                Subject : "New Contact Form Enquiry",
+                From : "sabarishtk2424@gmail.com",
+                Subject : "This is the subject",
                 Body : "And this is the body"
             }).then(
-            message => alert(message)
+              message => alert(message)
             );
         }
       </script>
